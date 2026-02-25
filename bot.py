@@ -1,13 +1,3 @@
-'''
-Le bot va acheter du BTC si :
-Le prix est sous la moyenne mobile de 20 période ET que le prix passe en zone de survente sur le RSI
-Ca veut dire qu'on profite des baisses violente pour racheter donc à utiliser uniqument dans un marché en tendance
-Exemple : Si je lance le bot sur du 1 minute, je m'assure d'avoir une belle tendance haussière sur du 15 minutes
-
-Avec le temps et ma monté en expérience en python et en trading algorythmique j'améliorerai ce bot au fur et a mesure
-et j'en créerait d'autre plus sophistiqué ou avec des stratégies différentes / d'autres objectifs
-'''
-
 import time
 import pandas as pd
 import talib 
